@@ -1,0 +1,324 @@
+// Your custom styles
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,600&display=swap');
+
+$popins :'Poppins', sans-serif;
+*{
+	margin: 0;
+}
+
+#header_menu{
+	background: url(../img/18915.jpg);
+	height: 80vh;
+	background-size: cover;
+
+	.navbar{
+		box-shadow: none;
+
+		.navbar-brand{
+			margin-left: 80px;
+			height: 40px;
+			color: #ffffff;
+			text-transform: uppercase;
+
+			img{
+				height: 100%;
+				margin-right: 10px;
+			}
+		}
+		.navbar-toggler{
+			border: none;
+			outline: none;
+			i.fa{
+				color: #ffffff;
+				font-size: 30px;
+			}
+		}
+
+		.navbar-nav{
+			float: right;
+			color: #ffffff !important;
+
+			li{
+
+				a{
+					color: #ffffff;
+					float: right;
+
+					text-transform: uppercase;
+
+				}
+			}
+		}
+
+	}
+
+}
+
+.welcome{
+	padding: 50px 100px;
+	margin-top: -100px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.5);
+
+	h1{
+		text-transform: uppercase;
+		color: #333333;
+	}
+	p{
+		text-transform: capitalize;
+	}
+	.home-btn{
+		margin-top: 10px;
+		padding: 10px 30px;
+		background-color: #013f7e;
+		border-radius: 30px;
+		color: #ffffff;
+		&:focus{
+			box-shadow: none;
+		}
+	}
+}
+
+#about{
+	padding: 100px 0;
+
+	.col-md-6{
+		padding: 20px;
+		display: inline-block;
+
+		h3{
+			margin: 20px auto;
+		}
+	}
+}
+
+
+//services
+
+
+#services{
+	padding: 80px 0;
+	background-color: #efefef;
+
+	.service{
+		padding: 20px;
+
+		h4{
+			padding: 5px;
+		}
+		img{
+			width: 50%;
+			
+		}
+		p{
+			padding: 5px;
+			text-align: justify;
+		}
+	}
+}
+#feature{
+	padding: 100px 0;
+	background: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.5)) ,url("../img/thao-le-hoang-jc9UD4JQFRQ-unsplash.jpg") fixed center center ;
+	background-size: cover;
+	color: #ffffff;
+	.features{
+		height: 120px;
+
+		.feature-left{
+			width: 20%;
+			height: 120px;
+			float: left;
+			i{
+				font-size: 50px;
+				margin-top: 15px;
+			}
+
+		}
+		.feature-right{
+			width: 80%;
+			float: left;
+			height: 120px;
+
+			h4{
+				padding-top: 10px;
+				padding-left: 15px;
+				text-align: left;
+			}
+			p{
+				padding-top: 10px;
+				padding-left: 15px;
+				text-align: left;
+			}
+
+
+		}
+	}
+
+
+
+}
+.title{
+	text-transform: uppercase;
+	font-family: $popins;
+}
+
+
+#testimonial{
+	padding: 100px 0;
+
+	
+	.title-text{
+		padding: 12px 30px 20px;
+
+	}
+
+	.col-md-4{
+		padding: 10px 30px;
+		img{
+			width: 60px;
+			height: 60px;
+			border: 5px solid #ffffff;
+			border-radius: 50%;
+			margin-top: -40px;
+			margin-left: -30px;
+		}
+		.review{
+			font-size: 16px;
+			padding: 10px 10px 30px 30px;
+			border-radius: 8px;
+			box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+
+			i{
+				color: #1c71ff;
+			}
+			.user-name{
+				font-size: 18px;
+				font-weight: 600;
+				color: #1c71ff;
+
+			}
+		}
+		&.middle-testimonial{
+			margin-top: -30px;
+			margin-bottom: -30px;
+
+		}
+	}
+
+}
+
+
+#subscribe{
+	.subscribe{
+		padding: 50px 20px;
+		position: relative;
+		background-color: #1c71ff;
+		box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+
+		margin-bottom: -150px;
+
+
+		h3{
+			color: #ffffff;
+			text-transform: uppercase;
+			font-family: $popins;
+			font-style:  italic;
+		}
+		p{
+			color: #ffffff;
+		}
+
+		.input-group{
+			max-width: 500px;
+			margin: 10px auto;
+			border-radius: 30px;
+			background: #ffffff;
+			padding: 5px;
+			.form-control{
+				border: none;
+				background: transparent;
+				padding-left: 10px;
+				&:focus{
+					background-color: transparent;
+					box-shadow: none;
+				}
+			}
+			.input-group-append{
+				background: linear-gradient( to right,#1c03b5, #5c8bef);
+				border-radius: 30px;
+
+				.btn{
+					background-color: transparent;
+					border: none;
+					color: #ffffff;
+				}
+
+			}
+
+		}
+	}
+}
+
+
+#footer{
+	padding: 100px 0 0;
+	margin-top: 80px;
+	background: #efefef;
+	color: #013f7e;
+
+	.logo-footer{
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 60px;
+
+		.footer-logo{
+			margin-top: 25px;
+			margin-bottom: 15px;
+			height: 60px;
+		}
+	}
+
+	.footer-widget{
+		h3{
+			font-size: 22px;
+			font-weight: bold;
+			text-align: left;
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+		p{
+			font-size:  14px;
+
+			.fa{
+				margin-right: 10px;
+			}
+		}
+		.city{
+			margin-left: 27px;
+		}
+	}
+
+
+	.copyright{
+        margin-bottom: 0;
+        padding-bottom: 16px;
+		i{
+			color: red;
+		}
+
+		a{
+			color: #1c71ff;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
